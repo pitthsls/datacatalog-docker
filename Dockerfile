@@ -6,7 +6,7 @@ MAINTAINER Name <jpm159@pitt.edu>
 RUN apt-get update && apt-get install -y git zip unzip lsof
 RUN apt-get remove -y php7.0-snmp
 
-EXPOSE 8080
+EXPOSE 80
 EXPOSE 8983
 
 COPY ./datacatalog-setup.sh /
