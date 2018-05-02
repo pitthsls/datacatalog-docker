@@ -49,7 +49,7 @@ apt-get install -y -t jessie-backports openjdk-8-jre-headless ca-certificates-ja
 #
 # Download and install Solr 6.2.2
 
-wget http://www-us.apache.org/dist/lucene/solr/6.6.2/solr-6.6.2.tgz
+wget http://archive.apache.org/dist/lucene/solr/6.6.2/solr-6.6.2.tgz
 tar -xzf solr-6.6.2.tgz -C /opt/
 
 #
